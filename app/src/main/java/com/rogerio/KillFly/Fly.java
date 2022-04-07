@@ -15,7 +15,4 @@ public class Fly extends SpritesObjs {
 		Bitmap bmp = BitmapFactory.decodeResource(context.getResources(),R.drawable.flyleft);		
 		mSprite.init(bmp, bmp.getHeight(), bmp.getHeight(), 7, 15);
 	}
-	
-	
-	
 }
